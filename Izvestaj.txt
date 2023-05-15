@@ -1,0 +1,27 @@
+Fajl      - calculator.java
+LOC       = 188
+
+
+Ciklomatska slozenost metoda(Codalyze):
+evaluateExpression = 12
+Calculate          = 12
+
+Kognitivna slozenost metoda:
+evaluateExpression = 9
+Calculate          = 13
+
+
+Fajl      - start.java
+LOC       = 26
+
+
+LOC za kompletan projekat = 214
+
+
+
+calculator.java - linija 4   - code Smell(Major)    -klasa calculator ne treba da bude public.
+calculator.java - linija 18  - code Smell(Blocker) - postoje dve metode toString koje se razlikuju samo u prvom velikom slovu sto nije dobro.
+calculator.java - linija 24  - code Smell(Minor)   - nedozvoljeno imenovanje metode Run.
+calculator.java - linija 70  - code Smell(Minor)   - deklarisanje promenljive samo da bismo odmah vratili rezultat nije dobra praksa.
+calculator.java - linija 74  - code Smell(Minor)   - ime metoda treba promeniti u skladu sa pravilima imenovanja istih.
+calculator.java - linija 183 - code Smell(Minor)   - nepotrebno pozivanje return-a. 
