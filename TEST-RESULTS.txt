@@ -1,0 +1,18 @@
+Testiranje aplikacije - Calculator
+
+Sistemsko testiranje(black box).
+
+REZULATI:
+1.Prilikom upotrebe zagrade,program izbacuje ERROR.
+	primer:5*(2+4-1)    =  ERROR
+2.Deljenje sa 0 nam daje rezultat beskonacno(infinity),umesto poruke da to nije moguce.
+
+
+
+Zapazanje:
+Prilikom izrade jedinicnog testa za metodu Calculate morao sam da promenim istu iz private u public
+kako bih uspeo da je pozovem.
+
+
+
+
